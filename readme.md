@@ -18,7 +18,7 @@ const socket = dgram.createSocket('udp4')
 
 socket.on('message', (packet) => {
   if (is_turn(packet)) {
-    // handle STUN...
+    // handle TURN...
   }
 })
 
