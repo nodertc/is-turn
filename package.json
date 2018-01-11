@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/reklatsmasters/is-turn.git"
+    "url": "git+https://github.com/nodertc/is-turn.git"
   },
   "keywords": [
     "turn",
@@ -26,12 +26,12 @@
   "author": "Dmitry Tsvettsikh <me@reklatsmasters.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/reklatsmasters/is-turn/issues"
+    "url": "https://github.com/nodertc/is-turn/issues"
   },
   "engines": {
     "node": ">=4"
   },
-  "homepage": "https://github.com/reklatsmasters/is-turn#readme",
+  "homepage": "https://github.com/nodertc/is-turn#readme",
   "dependencies": {
     "tape": "^4.7.0"
   }
