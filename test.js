@@ -13,16 +13,14 @@ test('should work', t => {
   t.end()
 })
 
-test('should throws', t => {
-  const err = /Argument 1 should be a Buffer./
-
-  t.throws(() => isTurn(1), err)
-  t.throws(() => isTurn(NaN), err)
-  t.throws(() => isTurn(null), err)
-  t.throws(() => isTurn(undefined), err)
-  t.throws(() => isTurn({}), err)
-  t.throws(() => isTurn(''), err)
-  t.throws(() => isTurn(Buffer.alloc(0)), err)
+test('should be false', t => {
+  t.false(isTurn(1))
+  t.false(isTurn(NaN))
+  t.false(isTurn(null))
+  t.false(isTurn(undefined))
+  t.false(isTurn({}))
+  t.false(isTurn(''))
+  t.false(isTurn(Buffer.alloc(0)))
 
   t.end()
 })
