@@ -33,6 +33,6 @@
   },
   "homepage": "https://github.com/nodertc/is-turn#readme",
   "dependencies": {
-    "tape": "^4.7.0"
+    "tape": "^4.8.0"
   }
 }
